@@ -8,7 +8,7 @@ import LogInPage from './Components/LogInPage';
 function App() {
   return (
     <>
-    <Switch>
+      <Switch>
         <Route exact path="/" component={LogInPage} />
         <Route exact path="/detailsForm" component={DetailsForm} />
         <Route exact path="/home" component={Home} />
